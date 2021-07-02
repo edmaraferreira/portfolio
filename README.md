@@ -1,2 +1,2 @@
 # PrimeirosProjetos
-Portfólio inicial Edmara Ferreira
+Portfólio Edmara Ferreira
