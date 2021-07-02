@@ -10,7 +10,7 @@ body{
 
 .header-container{
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     background-color: #d19eff;
     background-image: url(../img/header.png);
     background-repeat:no-repeat;
@@ -363,7 +363,7 @@ a:hover{
 /*FOOTER*/
 
 .footer{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     background-color: #d19eff;
     display: flex;
