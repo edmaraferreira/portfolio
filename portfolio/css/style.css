@@ -275,7 +275,6 @@ a:hover{
 
 .card-text{
     width: 40%;
-    letter-spacing: 1px;
     color: #1e1e1e;
 }
 
@@ -486,7 +485,6 @@ a:hover{
     }
     .card-text{
         width: 40%;
-        letter-spacing: 1px;
         color: #1e1e1e;
     }
     .card-wrapper h2{
