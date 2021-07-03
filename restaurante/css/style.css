@@ -21,32 +21,33 @@
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        width: 100%;
-        padding: 0;
+        width: 80%;
+        padding: 0 25px;
         background-color: #021B30;
     }
     
     nav ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         list-style: none;
-        width: 100%;
+        width: 80%;
     }
     
     nav ul img {
         max-width: 60px;
+ 
     }
     
     nav ul a {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space=space-evenly;
         align-items: center;
-        padding: 0 10px;
+        padding: 0 6px;
         font-weight: bold;
         color: #ffffff;
         text-decoration: none;
@@ -57,6 +58,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-image: url(../imagem/header.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -65,6 +67,7 @@
         width: 100%;
         height: auto;
         text-align: center;
+        margin: 6px;
     }
     
     header button {
@@ -99,7 +102,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 400px;
+        max-width: 300px;
         height: 300px;
         box-sizing: border-box;
     }
@@ -109,7 +112,7 @@
         flex-direction: column;
         justify-content: center;
         border-radius: 5px;
-        width: 400px;
+        max-width: 350px;
         height: 250px;
     }
     
@@ -119,6 +122,7 @@
         opacity: 0;
         animation: animacao 10s infinite;
         margin-top: auto;
+        max-width: 90;
     }
     
     @keyframes animacao {
@@ -151,6 +155,7 @@
         flex-direction: column;
         text-align: center;
         width: 100%;
+        margin: 8px;
     }
     
     #cardapio h3 {
@@ -224,6 +229,7 @@
         justify-content: center;
         align-items: center;
         max-width: 100%;
+
     }
     
     #titinfo {
@@ -233,15 +239,17 @@
     #info div {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-        width: 300px;
+        max-width: 250px;
         height: 300px;
         margin-top: -30px;
     }
     
     .endereço {
+        max-width: 80%;
         padding: 20px;
+        margin: 15px;
     }
     
     .contatos {
@@ -263,6 +271,7 @@
         padding: 5px;
         text-align: center;
         font-style: italic;
+        margin-bottom: 20px;
     }
     /*RESPONSIVIDADE*/
     
